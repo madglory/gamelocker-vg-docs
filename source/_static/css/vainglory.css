@@ -34,8 +34,8 @@ pre,
 table {
   margin-top: 0;
   font-weight: 300;
-  line-height: 1.4em;
-  color: #e3e3e3; }
+  line-height: 1.2em;
+  color: #949282; }
   .vainglory h1, .vainglory
   h2, .vainglory
   h3, .vainglory
@@ -57,27 +57,25 @@ h4,
 h5,
 h6,
 blockquote {
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: "PT Serif", serif;
   color: #f79d02;
-  letter-spacing: 0.1em; }
+  letter-spacing: -0.01em; }
 
 h1 {
-  margin-top: 1.09em;
   margin-bottom: .55em;
-  font-size: 27px;
+  font-size: 36px;
   color: #f79d02; }
   @media (max-width: 950px) {
     h1 {
-      font-size: 24px;} }
+      font-size: 30px;} }
 
 h2 {
   margin-bottom: .8em;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 300;
-  color: #bf4d0a;
-  letter-spacing: 0.1em; }
+  letter-spacing: 0.01em; }
   @media (max-width: 950px) {
     h2 {
       font-size: 20px; } }
@@ -480,12 +478,8 @@ p {
     width: 20rem;
 }
 
-div.sphinxsidebarwrapper {
-    padding: 2rem 1rem 0 0;
-}
-
 .sphinxsidebarwrapper ul {
-  padding: 2rem 1rem 0 0;
+  padding: 0 0 0 0 !important;
 }
 
 .sphinxsidebarwrapper h3 {
@@ -530,12 +524,12 @@ div.sphinxsidebarwrapper {
 .sphinxsidebarwrapper ul li a {
   display: block;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
   letter-spacing: .07em;
-  padding: 9px 10px 8px 17px;
+  padding: 9px 10px 8px 26px;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .sphinxsidebarwrapper ul li a:hover, ul.aside-menu li a:focus {
@@ -557,7 +551,8 @@ a:visited {
 
 
 .highlight pre{
-  background-color: #1e1e1e;
+  background-color: black;
+  border:1px solid #5e5e5e;
 }
 
 .highlight .go {
@@ -565,7 +560,7 @@ a:visited {
 }
 
 .pre {
-  background-color: #1e1e1e;
+  background-color: #444444;
 }
 
 table {
