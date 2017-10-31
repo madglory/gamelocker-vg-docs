@@ -90,10 +90,8 @@
 <li>a single [resource object][resource objects], a single [resource identifier object], or <code class="docutils literal"><span class="pre">null</span></code></li>
 <li>an array of [resource objects], an array of [resource identifier objects][resource identifier object], or an empty array <code class="docutils literal"><span class="pre">([])</span></code></li>
 </ul>
-<p>For example, the following primary data is a single resource object:</p>
-<p>The following primary data is a single [resource identifier object] that references the same resource:</p>
-<p>A logical collection of resources will always be represented as an array, even if it only contains one item or is empty.</p>
-<p><strong>Javascript</strong></p>
+<p>For example, the following primary data is a single resource object. It’s primary data is a single [resource identifier object] that references the same resource. A logical collection of resources will always be represented as an array, even if it only contains one item or is empty.</p>
+<p><strong>Javascript:</strong></p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="p">{</span>
   <span class="s2">&quot;data&quot;</span><span class="o">:</span> <span class="p">{</span>
     <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;match&quot;</span><span class="p">,</span>
@@ -120,12 +118,13 @@
 <p>Be nice. If you’re sending too many requests too quickly, we’ll send back a
 <code class="docutils literal"><span class="pre">429</span></code> error code (server unavailable).</p>
 <p><strong>Please note: Free for non-commercial use for up to 10 requests per minute! To increase your rate limit, log into your admin dashboard, find the app you would like a higher rate limit for, and click “request a higher rate limit”</strong></p>
-<p><strong>Shell</strong></p>
+<p><strong>Shell:</strong></p>
 <div class="highlight-shell"><div class="highlight"><pre><span></span>The rate limit headers are defined as follows:
 
 X-RateLimit-Limit - Request limit per day / per minute
 X-RateLimit-Remaining - The number of requests left <span class="k">for</span> the <span class="nb">time</span> window
 X-RateLimit-Reset - The remaining window before the rate limit is refilled in UTC epoch nanoseconds.
+
 * Limit tokens are incrementally filled by <span class="m">60</span><span class="o">(</span>sec<span class="o">)</span>/ rate limit. ex: <span class="m">60</span><span class="o">(</span>sec<span class="o">)</span>/10<span class="o">(</span>rate<span class="o">)</span> gets rate token every <span class="m">6</span> seconds up to max rate limit.
 </pre></div>
 </div>

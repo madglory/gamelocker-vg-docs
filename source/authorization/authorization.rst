@@ -8,24 +8,26 @@ JWTs are passed as bearer tokens in the Authorization header, and look like the 
 
 Authorization: <Enter your API Key>
 
-There's no need to create JWTs manually, they will be created for you when you register for the API - `Register Here! <https://developer.battlerite.com>`_.
-
-In some cases an X-API-KEY will give you more access to information, and in all cases it means that you are operating under a per-token rate limit.
+There's no need to create JWTs manually, they will be created for you when you register for the API - `Register Here! <https://developer.battlerite.com>`_. In some cases an X-API-KEY will give you more access to information, and in all cases it means that you are operating under a per-token rate limit.
 
 To specify the Headers, use this code:
 
 **Shell**
 
+
 .. code-block:: shell
+
+  //Shell
 
   # With shell, you can just pass the correct header with each request
     curl "<endpoint-url>" \
     -H "Authorization: <api-key>"
     -H "Accept: application/vnd.api+json"
 
-**Java**
 
 .. code-block:: java
+
+  //Java
 
   import java.io.*;
   import java.net.*;
@@ -38,9 +40,10 @@ To specify the Headers, use this code:
 
   conn.getInputStream()
 
-**Python**  
 
 .. code-block:: python
+
+  //Python
 
   import requests
 
@@ -53,9 +56,10 @@ To specify the Headers, use this code:
 
   r = requests.get(url, headers=header)
 
-**Go**
 
 .. code-block:: go
+
+  //Go
 
   import "net/http"
 

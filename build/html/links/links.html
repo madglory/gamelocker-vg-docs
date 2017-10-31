@@ -74,9 +74,11 @@
 <div class="section" id="get-a-link">
 <h2>Get a Link<a class="headerlink" href="#get-a-link" title="Permalink to this headline">¶</a></h2>
 <p>This endpoint checks to see if a link object exists for a given code.</p>
-<p><strong>HTTP Request</strong>
-<code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/link</span></code></p>
-<p><strong>Shell</strong></p>
+<p><strong>HTTP Request:</strong></p>
+<div class="line-block">
+<div class="line"><code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/link</span></code></div>
+</div>
+<p><strong>Shell:</strong></p>
 <div class="highlight-shell"><div class="highlight"><pre><span></span>curl <span class="s2">&quot;https://api.dc01.gamelockerapp.com/shards/na/link/{id}&quot;</span> <span class="se">\</span>
 -H <span class="s2">&quot;Authorization: Bearer &lt;api-key&gt;&quot;</span> <span class="se">\</span>
 -H <span class="s2">&quot;Accept: application/vnd.api+json&quot;</span>
@@ -86,15 +88,16 @@
 <div class="section" id="post-a-link">
 <h2>Post a Link<a class="headerlink" href="#post-a-link" title="Permalink to this headline">¶</a></h2>
 <p>This endpoint creates a PlayerLink object if the verification code matches the one provided by the game.</p>
-<p><strong>HTTP Request</strong>
-<code class="docutils literal"><span class="pre">POST</span> <span class="pre">https://api.dc01.gamelockerapp.com/link/{player_id}</span></code></p>
-<p><strong>Query Parameters</strong>
-=========================== ===================================================================================================================
-Parameter                   Description
-=========================== ===================================================================================================================
-code                        The verification code
-=========================== ===================================================================================================================</p>
-<p><strong>Shell</strong></p>
+<p><strong>HTTP Request:</strong></p>
+<div class="line-block">
+<div class="line"><code class="docutils literal"><span class="pre">POST</span> <span class="pre">https://api.dc01.gamelockerapp.com/link/{player_id}</span></code></div>
+</div>
+<p><strong>Query Parameters:</strong></p>
+<div class="line-block">
+<div class="line"><code class="docutils literal"><span class="pre">Parameter:</span> <span class="pre">Code</span></code></div>
+<div class="line"><br /></div>
+</div>
+<p><strong>Shell:</strong></p>
 <div class="highlight-shell"><div class="highlight"><pre><span></span>curl -XPOST <span class="s2">&quot;https://api.dc01.gamelockerapp.com/shards/na/link/{player_id}&quot;</span> <span class="se">\</span>
 -H <span class="s2">&quot;Authorization: Bearer &lt;api-key&gt;&quot;</span> <span class="se">\</span>
 -H <span class="s2">&quot;Accept: application/vnd.api+json&quot;</span>
@@ -103,15 +106,15 @@ code                        The verification code
 </div>
 <div class="section" id="player-link">
 <h2>Player Link<a class="headerlink" href="#player-link" title="Permalink to this headline">¶</a></h2>
-<p><strong>Shell</strong></p>
-<div class="highlight-shell"><div class="highlight"><pre><span></span>  <span class="o">{</span>
-  <span class="s2">&quot;attributes&quot;</span>: <span class="o">{</span>
-      <span class="s2">&quot;playerId&quot;</span>: <span class="s2">&quot;fb374a7b-78be-4fcc-83ed-6a532a8a6f55&quot;</span>,
-      <span class="s2">&quot;shardId&quot;</span>: <span class="s2">&quot;na&quot;</span>,
-      <span class="s2">&quot;titleId&quot;</span>: <span class="s2">&quot;semc-vainglory&quot;</span>
-  <span class="o">}</span>,
-  <span class="s2">&quot;id&quot;</span>: <span class="s2">&quot;2454e5ac-0a69-4468-ad12-8616f066e817&quot;</span>,
-  <span class="s2">&quot;type&quot;</span>: <span class="s2">&quot;playerLink&quot;</span>
+<p><strong>Shell:</strong></p>
+<div class="highlight-shell"><div class="highlight"><pre><span></span>          <span class="o">{</span>
+          <span class="s2">&quot;attributes&quot;</span>: <span class="o">{</span>
+              <span class="s2">&quot;playerId&quot;</span>: <span class="s2">&quot;fb374a7b-78be-4fcc-83ed-6a532a8a6f55&quot;</span>,
+              <span class="s2">&quot;shardId&quot;</span>: <span class="s2">&quot;na&quot;</span>,
+              <span class="s2">&quot;titleId&quot;</span>: <span class="s2">&quot;semc-vainglory&quot;</span>
+          <span class="o">}</span>,
+          <span class="s2">&quot;id&quot;</span>: <span class="s2">&quot;2454e5ac-0a69-4468-ad12-8616f066e817&quot;</span>,
+          <span class="s2">&quot;type&quot;</span>: <span class="s2">&quot;playerLink&quot;</span>
 <span class="o">}</span>
 </pre></div>
 </div>

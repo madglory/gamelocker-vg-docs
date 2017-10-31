@@ -75,8 +75,10 @@
 <div class="section" id="get-a-collection-of-samples">
 <h2>Get a Collection of Samples<a class="headerlink" href="#get-a-collection-of-samples" title="Permalink to this headline">¶</a></h2>
 <p>This endpoint retrieves a collection of randomly selected matches.</p>
-<p><strong>HTTP Request</strong>
-<code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/shards/na/samples</span></code></p>
+<p><strong>HTTP Request</strong></p>
+<div class="line-block">
+<div class="line"><code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/shards/na/samples</span></code></div>
+</div>
 <table border="1" class="docutils">
 <colgroup>
 <col width="17%" />
@@ -112,12 +114,12 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Shell</strong></p>
+<p><strong>Python:</strong></p>
 <div class="highlight-python"><div class="highlight"><pre><span></span><span class="n">curl</span> <span class="s2">&quot;https://api.dc01.gamelockerapp.com/shards/na/samples&quot;</span> \
 <span class="o">-</span><span class="n">H</span> <span class="s2">&quot;Authorization: Bearer &lt;api-key&gt;&quot;</span> \
 <span class="o">-</span><span class="n">H</span> <span class="s2">&quot;Accept: application/vnd.api+json&quot;</span>
 
-<span class="o">*</span><span class="n">The</span> <span class="n">above</span> <span class="n">command</span> <span class="n">returns</span> <span class="n">JSON</span> <span class="n">structured</span> <span class="n">like</span> <span class="n">this</span><span class="p">:</span><span class="o">*</span>
+<span class="o">//</span><span class="n">The</span> <span class="n">above</span> <span class="n">command</span> <span class="n">returns</span> <span class="n">JSON</span> <span class="n">structured</span> <span class="n">like</span> <span class="n">this</span><span class="p">:</span>
 
 <span class="p">{</span>
     <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;sample&quot;</span><span class="p">,</span>
@@ -138,14 +140,14 @@
   <span class="p">}</span>
 </pre></div>
 </div>
-<p><strong>Javascript</strong></p>
+<p><strong>Javascript:</strong></p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="c1">//There are a variety of Java HTTP libraries that support query-parameters.</span>
 
 <span class="nx">curl</span> <span class="s2">&quot;https://api.dc01.gamelockerapp.com/shards/na/samples&quot;</span> <span class="o">\</span>
 <span class="o">-</span><span class="nx">H</span> <span class="s2">&quot;Authorization: Bearer &lt;api-key&gt;&quot;</span> <span class="o">\</span>
 <span class="o">-</span><span class="nx">H</span> <span class="s2">&quot;Accept: application/vnd.api+json&quot;</span>
 
-<span class="o">*</span><span class="nx">The</span> <span class="nx">above</span> <span class="nx">command</span> <span class="nx">returns</span> <span class="nx">JSON</span> <span class="nx">structured</span> <span class="nx">like</span> <span class="k">this</span><span class="o">:*</span>
+<span class="c1">//The above command returns JSON structured like this:</span>
 
 <span class="p">{</span>
     <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;sample&quot;</span><span class="p">,</span>

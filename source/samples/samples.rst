@@ -12,7 +12,8 @@ Get a Collection of Samples
 This endpoint retrieves a collection of randomly selected matches.
 
 **HTTP Request**
-``GET https://api.dc01.gamelockerapp.com/shards/na/samples``
+
+|  ``GET https://api.dc01.gamelockerapp.com/shards/na/samples``
 
 
 =========================== ================ ===================================================================================================================
@@ -25,7 +26,7 @@ filter[createdAt-start]     none             Must occur before end time. Format 
 filter[createdAt-end]       none             Queries search the last 3 hrs. Format is iso8601 i.e.filter[createdAt-end]=2017-01-01T13:25:30Z
 =========================== ================ ===================================================================================================================
 
-**Shell**
+**Python:**
 
 .. code-block:: python
 
@@ -33,7 +34,7 @@ filter[createdAt-end]       none             Queries search the last 3 hrs. Form
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 
-  *The above command returns JSON structured like this:*
+  //The above command returns JSON structured like this:
 
   {
       "type": "sample",
@@ -53,7 +54,7 @@ filter[createdAt-end]       none             Queries search the last 3 hrs. Form
       }
     }
 
-**Javascript**
+**Javascript:**
 
 .. code-block:: javascript
 
@@ -63,7 +64,7 @@ filter[createdAt-end]       none             Queries search the last 3 hrs. Form
   -H "Authorization: Bearer <api-key>" \
   -H "Accept: application/vnd.api+json"
 
-  *The above command returns JSON structured like this:*
+  //The above command returns JSON structured like this:
 
   {
       "type": "sample",

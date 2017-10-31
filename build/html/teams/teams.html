@@ -76,17 +76,22 @@
 <h2>Get a collection of Teams<a class="headerlink" href="#get-a-collection-of-teams" title="Permalink to this headline">¶</a></h2>
 <p>This endpoint retrieves a collection of up to 6 teams.</p>
 <p><em>Important - Team resources are not yet available in the API.</em></p>
-<p><strong>HTTP Request</strong>
-<code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/teams</span></code></p>
-<p><strong>URL Parameters</strong>
-=========================== ================ ===================================================================================================================
-Parameter                   Default          Description
-=========================== ================ ===================================================================================================================
-filter[teamNames]           none             Filters by team name. Usage: filter[teamNames]=team1
-filter[teamIds]             none             Filter by team id. Usage: filter[teamIds]=12345
-=========================== ================ ===================================================================================================================</p>
-<p><em>Remember — a happy team is an authenticated team!</em></p>
-<p><strong>Shell</strong></p>
+<p><strong>HTTP Request</strong></p>
+<div class="line-block">
+<div class="line"><code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/teams</span></code></div>
+</div>
+<p><strong>URL Parameters</strong></p>
+<div class="line-block">
+<div class="line">Parameter: filter[teamNames]</div>
+<div class="line">Defailt: none</div>
+<div class="line">Description: Filters by team name. Usage: filter[teamNames]=team1</div>
+</div>
+<div class="line-block">
+<div class="line">Parameter: filter[teamIds]</div>
+<div class="line">Defailt: none</div>
+<div class="line">Description: Filter by team id. Usage: filter[teamIds]=12345</div>
+</div>
+<p><strong>Shell:</strong></p>
 <div class="highlight-shell"><div class="highlight"><pre><span></span>curl <span class="s2">&quot;https://api.dc01.gamelockerapp.com/shards/na/teams?filter[teamNames]=team1&quot;</span> <span class="se">\</span>
 -H <span class="s2">&quot;Authorization: Bearer &lt;api-key&gt;&quot;</span> <span class="se">\</span>
 -H <span class="s2">&quot;Accept: application/vnd.api+json&quot;</span>
@@ -96,15 +101,16 @@ filter[teamIds]             none             Filter by team id. Usage: filter[te
 <div class="section" id="get-a-single-team">
 <h2>Get a Single Team<a class="headerlink" href="#get-a-single-team" title="Permalink to this headline">¶</a></h2>
 <p>This endpoint retrieves a specific team.</p>
-<p><strong>HTTP Request</strong>
-<code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/teams/&lt;ID&gt;</span></code></p>
-<p><strong>URL Parameters</strong>
-=========================== ===================================================================================================================
-Parameter                   Description
-=========================== ===================================================================================================================
-ID                          The ID of the team to retrieve
-=========================== ===================================================================================================================</p>
-<p><strong>Shell</strong></p>
+<p><strong>HTTP Request</strong></p>
+<div class="line-block">
+<div class="line"><code class="docutils literal"><span class="pre">GET</span> <span class="pre">https://api.dc01.gamelockerapp.com/teams/&lt;ID&gt;</span></code></div>
+</div>
+<p><strong>URL Parameters</strong></p>
+<div class="line-block">
+<div class="line">Parameter: ID</div>
+<div class="line">Description: The ID of the team to retrieve</div>
+</div>
+<p><strong>Shell:</strong></p>
 <div class="highlight-shell"><div class="highlight"><pre><span></span>  curl <span class="s2">&quot;https://api.dc01.gamelockerapp.com/teams/&lt;ID&gt;&quot;</span> <span class="se">\</span>
   -H <span class="s2">&quot;Authorization: Bearer &lt;api-key&gt;&quot;</span> <span class="se">\</span>
   -H <span class="s2">&quot;Accept: application/vnd.api+json&quot;</span>
