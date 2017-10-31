@@ -495,7 +495,7 @@ div.sphinxsidebarwrapper {
   list-style: none;
   margin-bottom: -2px;
   padding: 0;
-  border: 1.5px solid #1f1e20;
+  border: 1.5px solid #4c4c4c;
 }
 
 .sphinxsidebarwrapper ul li.current > a {
@@ -506,7 +506,7 @@ div.sphinxsidebarwrapper {
 .sphinxsidebarwrapper ul li.current {
   padding: 0px 0 0px;
   margin-bottom: 0;
-  background-color: #1f1e20;
+  background-color: #1212120;
 }
 
 .sphinxsidebarwrapper ul li ul {

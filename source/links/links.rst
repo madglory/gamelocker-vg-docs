@@ -47,7 +47,6 @@ This endpoint creates a PlayerLink object if the verification code matches the o
 
 
 
-
 Player Link
 ---------------------------
 
