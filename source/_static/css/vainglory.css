@@ -56,9 +56,9 @@ h4,
 h5,
 h6,
 blockquote {
-  font-weight: 300;
+  font-weight: 100;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed", san;
+  font-family: "Open Sans Condensed", sans-serif;
   color: #eaa900;
   letter-spacing: 0.1em; }
 
@@ -75,7 +75,7 @@ h2 {
   margin-bottom: .8em;
   font-size: 18px;
   font-weight: 300;
-  color: #bf4d0a;
+  color: #ffffff;
   letter-spacing: 0.1em; }
   @media (max-width: 950px) {
     h2 {

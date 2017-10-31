@@ -13,7 +13,7 @@ We show example language bindings using CURL and plan to add libraries for Ruby,
 
 
 Versioning
----------------------------
+-----------
 
 We following `SEMVER <http://semver.org/>`_. standards, using a MAJOR.MINOR.PATCH versioning scheme. This means that we will increment versioning in the following way:
 
