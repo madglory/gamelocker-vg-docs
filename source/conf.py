@@ -1,7 +1,7 @@
 from better import better_theme_path
 # -*- coding: utf-8 -*-
 #
-# Battelrite documentation build configuration file, created by
+# Vainglory documentation build configuration file, created by
 # sphinx-quickstart on Mon Oct 23 11:59:26 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Battelrite'
+project = u'Vainglory'
 copyright = u'2017, MadGlory'
 author = u'MadGlory'
 
@@ -86,7 +86,7 @@ todo_include_todos = False
 html_theme_path = [better_theme_path]
 html_theme = 'better'
 #html_theme = 'nature'
-html_style = "css/battlerite.css"
+html_style = "css/vainglory.css"
 # html_logo = "_static/images/logo.png"
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -121,7 +121,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Battelritedoc'
+htmlhelp_basename = 'Vainglorydoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -147,7 +147,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Battelrite.tex', u'Battelrite Documentation 1',
+    (master_doc, 'Vainglory.tex', u'Vainglory Documentation 1',
      u'MadGlory', 'manual'),
 ]
 
@@ -157,7 +157,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'battelrite', u'Battelrite Documentation',
+    (master_doc, 'vainglory', u'Vainglory Documentation',
      [author], 1)
 ]
 
@@ -168,7 +168,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Battelrite', u'Battelrite Documentation',
-     author, 'Battelrite', 'One line description of project.',
+    (master_doc, 'Vainglory', u'Vainglory Documentation',
+     author, 'Vainglory', 'One line description of project.',
      'Miscellaneous'),
 ]
