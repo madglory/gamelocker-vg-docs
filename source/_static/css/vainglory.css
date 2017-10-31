@@ -14,7 +14,6 @@ body {
   position: relative;
   overflow-x: hidden;
   background-color: #10090e;
-  background-image: url(../images/vainglory/main-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -59,8 +58,8 @@ h6,
 blockquote {
   font-weight: 300;
   text-transform: uppercase;
-  font-family: "PT Serif", serif;
-  color: #f79d02;
+  font-family: "Open Sans Condensed", san;
+  color: #eaa900;
   letter-spacing: 0.1em; }
 
 h1 {
