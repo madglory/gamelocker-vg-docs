@@ -34,8 +34,7 @@ This endpoint creates a PlayerLink object if the verification code matches the o
 
 **Query Parameters:**
 
-|  ``Parameter: Code``
-|  
+|  ``Parameter: Code`` 
 
 **Shell:**
 
