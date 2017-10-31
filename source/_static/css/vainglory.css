@@ -13,7 +13,7 @@ body {
   font-size: 14px;
   position: relative;
   overflow-x: hidden;
-  background-color: #10090e;
+  background-color: #161819;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ h1 {
 
 h2 {
   margin-bottom: .8em;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   color: #ffffff;
   letter-spacing: 0.1em; }
@@ -289,12 +289,12 @@ main-wrapper:after,
               .menu-top-outer .user-drop {
                 margin-top: 24px; } }
             .menu-top-outer .user-drop.open .name {
-              background-image: url(../images/battlerite/yellow-arrow-up.svg);
+              background-image: url(../images/vainglory/yellow-arrow-up.svg);
               background-repeat: no-repeat; }
               .lt-ie9 .menu-top-outer .user-drop.open .name {
-                background-image: url(../images/battlerite/yellow-arrow-up.png); }
+                background-image: url(../images/vainglory/yellow-arrow-up.png); }
               .no-svg .menu-top-outer .user-drop.open .name {
-                background-image: url(../images/battlerite/yellow-arrow-up.png); }
+                background-image: url(../images/vainglory/yellow-arrow-up.png); }
             .menu-top-outer .user-drop.open ul {
               display: block; }
             .menu-top-outer .user-drop .name {
@@ -305,15 +305,15 @@ main-wrapper:after,
               font-weight: 400;
               cursor: pointer;
               text-transform: uppercase;
-              background-image: url(../images/battlerite/yellow-arrow.svg);
+              background-image: url(../images/vainglory/yellow-arrow.svg);
               background-repeat: no-repeat;
               background-size: 9px 7px;
               font-size: 14.848px;
               font-size: 1.4848rem; }
               .lt-ie9 .menu-top-outer .user-drop .name {
-                background-image: url(../images/battlerite/yellow-arrow.png); }
+                background-image: url(../images/vainglory/yellow-arrow.png); }
               .no-svg .menu-top-outer .user-drop .name {
-                background-image: url(../images/battlerite/yellow-arrow.png); }
+                background-image: url(../images/vainglory/yellow-arrow.png); }
             .menu-top-outer .user-drop ul {
               display: none;
               position: absolute;
@@ -382,7 +382,7 @@ main-wrapper:after,
       background-size: 100% 100%;
       min-width: 240px;
       max-width: 100%;
-      background-image: url(../images/battlerite/btn-1.png);
+      background-image: url(../images/vainglory/btn-1.png);
       border: none;
       font-family: "Ubuntu", sans-serif;
       font-size: 16px;
@@ -406,7 +406,7 @@ main-wrapper:after,
           font-size: 1.4rem;
           min-width: 136px; } }
       .btn.alt, .alt[type="submit"] {
-        background-image: url(../images/battlerite/btn-2.png); }
+        background-image: url(../images/vainglory/btn-2.png); }
         .btn.alt:hover, .alt[type="submit"]:hover, .btn.alt:focus, .alt[type="submit"]:focus {
           color: #7e1a01 !important; }
 

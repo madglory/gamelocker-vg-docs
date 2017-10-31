@@ -56,7 +56,6 @@ Given the size of matches, this can have significant performance benefits.
 
 .. code-block:: javascript
 
-
   To specify the header Accept-Encoding, use this code:
 
   -H "Accept-Encoding: gzip"
