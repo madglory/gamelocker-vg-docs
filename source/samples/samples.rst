@@ -15,6 +15,8 @@ This endpoint retrieves a collection of randomly selected matches.
 
 |  ``GET https://api.dc01.gamelockerapp.com/shards/na/samples``
 
+**Query Parameters**
+
 
 =========================== ================ ===================================================================================================================
 Parameter                   Default          Description

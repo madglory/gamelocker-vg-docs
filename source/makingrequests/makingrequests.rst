@@ -6,7 +6,6 @@ Making Requests
 Content Negotiation
 ---------------------------
 
-Content Negotiation
 Clients using the api should specify that they accept responses using the ``application/vnd.api+json`` format, for convenience we will also accept ``application/json`` since it is the default for many popular client libraries.
 
 The Server will respond with a ``Content-Type`` header that mirrors the format requested by the Client.
@@ -22,7 +21,7 @@ The Vainglory Game Data Service currently supports the following regions:
 * **Europe:** ``eu``
 * **South America:** ``sa``
 * **East Asia:** ``ea``
-* **Southeast Asia (SEA):** ``sa``
+* **Southeast Asia (SEA):** ``sg``
 
 *Tournament Region Shards:* To find data regarding professional eSport, which take place on the private client only, please use the following shards.
 
@@ -164,7 +163,6 @@ Here's a sample request sent from a browser hitting http://example.com:
 **Shell:**
 
 .. code-block:: shell
-
 
   curl -i https://api.dc01.gamelockerapp.com/status -H "Origin: http://example.com"
   HTTP/1.1 200 OK

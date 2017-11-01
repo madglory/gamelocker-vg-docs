@@ -12,7 +12,7 @@ Get a Single Player
 
 This endpoint retrieves a specific player.
 
-*Please Note: Changes Coming! - Player resources are not fully defined at this point, but are included so that consumers can get basic info (name, etc.) This object will have additional data added over the next few months, and may change slightly as data moves from the `attributes.stats` object to the main `attributes` object.*
+*Please Note: Changes Coming! - Player resources are not fully defined at this point, but are included so that consumers can get basic info (name, etc.) This object will have additional data added over the next few months, and may change slightly as data moves from the ``attributes.stats`` object to the main `attributes` object.*
 
 **HTTP Request**
 
