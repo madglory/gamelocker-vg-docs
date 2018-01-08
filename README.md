@@ -1,3 +1,5 @@
+# Your are most likely looking for this https://github.com/gamelocker/vainglory-docs
+
 # battlerite-docs
 
 This is a temp repo to house the battlerite gamelocker documentation.
